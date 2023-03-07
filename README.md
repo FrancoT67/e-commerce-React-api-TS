@@ -1,5 +1,5 @@
 # E-commerce-React-Rest Api-TS
-- This is  little e-commerce with React and Express with TypeScript
+- This is a small e-commerce with React and Express with TypeScript
 
 - CHECK ALWAYS THE PATH's IS CORRECTLY's.
 
