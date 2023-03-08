@@ -1,7 +1,7 @@
 # E-commerce-React-Rest Api-TS
 - This is a small e-commerce with React and Express with TypeScript
 
-- CHECK ALWAYS THE PATH's IS CORRECTLY's.
+- CHECK ALWAYS THE PATH IS CORRECTLY.
 
 # How to run the FrontEnd?
 
