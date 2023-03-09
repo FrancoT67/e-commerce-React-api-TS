@@ -1,3 +1,9 @@
-import express from 'express';
-const app= express();
+import {App} from './app';
 
+function main() {
+    const app = new App(3000);
+    app.listen()
+    
+}
+
+main();
