@@ -15,6 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.App = void 0;
 const express_1 = __importDefault(require("express"));
 const morgan_1 = __importDefault(require("morgan"));
+const index_routes_1 = __importDefault(require("./routes/index.routes"));
 class App {
     // this construct the object app and there has the functions usables.
     constructor(PORT) {
@@ -22,6 +23,7 @@ class App {
         this.app = (0, express_1.default)();
         this.settings();
         this.middlewars();
+        this.routes();
     }
     // This if for the settings the variables how port and others env.variables.
     settings() {
@@ -36,6 +38,11 @@ class App {
     }
     middlewars() {
         this.app.use((0, morgan_1.default)('dev'));
+    }
+    //Router 
+    //This file manage the routes in the url and control the data sended from the front.
+    routes() {
+        this.app.use(index_routes_1.default);
     }
 }
 exports.App = App;

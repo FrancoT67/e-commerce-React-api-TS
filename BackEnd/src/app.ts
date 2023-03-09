@@ -1,7 +1,6 @@
 import express, { Application} from 'express';
-
 import morgan from 'morgan';
-
+import router from './routes/index.routes'; 
 
 
 export class App{
@@ -14,6 +13,7 @@ export class App{
         this.app=express();
         this.settings();
         this.middlewars();
+        this.routes();
     }
 
     // This if for the settings the variables how port and others env.variables.
@@ -32,6 +32,11 @@ export class App{
     middlewars(){
         this.app.use(morgan('dev'));
         
+    }
+    //Router 
+    //This file manage the routes in the url and control the data sended from the front.
+    routes(){
+        this.app.use(router);
     }
     
 }
