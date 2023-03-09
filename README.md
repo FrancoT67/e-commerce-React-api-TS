@@ -1,7 +1,7 @@
-# e-commerce-React-api-TS
-# This is  little eccomerce with React in the front and a Rest API with TypeScript
+# E-commerce-React-Rest Api-TS
+- This is a small e-commerce with React and Express with TypeScript
 
-# CHECK ALWAYS THE PATH's IS CORRECTLY's.
+- CHECK ALWAYS THE PATH IS CORRECTLY.
 
 # How to run the FrontEnd?
 
